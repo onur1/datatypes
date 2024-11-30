@@ -14,7 +14,7 @@
 To install warp, run:
 
 ```sh
-go get github.com/onur1/warp
+go get github.com/tetsuo/warp
 ```
 
 ## Usage
@@ -32,8 +32,8 @@ import (
     "fmt"
     "math"
 
-    "github.com/onur1/warp"
-    "github.com/onur1/warp/result"
+    "github.com/tetsuo/warp"
+    "github.com/tetsuo/warp/result"
 )
 
 var errNegativeSqrt = errors.New("negative square root")
@@ -86,7 +86,7 @@ import (
     "context"
     "fmt"
 
-    "github.com/onur1/warp/event"
+    "github.com/tetsuo/warp/event"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 // Package io implements the IO type.
 package io
 
-import "github.com/onur1/warp"
+import "github.com/tetsuo/warp"
 
 func Map[A, B any](fa warp.IO[A], f func(A) B) warp.IO[B] {
 	return func() B {

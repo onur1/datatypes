@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/onur1/warp"
-	"github.com/onur1/warp/nilable"
-	"github.com/onur1/warp/result"
+	"github.com/tetsuo/warp"
+	"github.com/tetsuo/warp/nilable"
+	"github.com/tetsuo/warp/result"
 	"github.com/stretchr/testify/assert"
 )
 

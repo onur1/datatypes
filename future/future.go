@@ -5,9 +5,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/onur1/warp"
-	"github.com/onur1/warp/event"
-	"github.com/onur1/warp/result"
+	"github.com/tetsuo/warp"
+	"github.com/tetsuo/warp/event"
+	"github.com/tetsuo/warp/result"
 )
 
 // Succeed creates a future that succeeds with a value.

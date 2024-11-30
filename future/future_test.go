@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/onur1/warp"
-	"github.com/onur1/warp/event"
-	"github.com/onur1/warp/future"
-	"github.com/onur1/warp/result"
+	"github.com/tetsuo/warp"
+	"github.com/tetsuo/warp/event"
+	"github.com/tetsuo/warp/future"
+	"github.com/tetsuo/warp/result"
 	"github.com/stretchr/testify/assert"
 )
 

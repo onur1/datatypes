@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/onur1/ring"
-	"github.com/onur1/warp"
-	"github.com/onur1/warp/result"
+	"github.com/tetsuo/ring"
+	"github.com/tetsuo/warp"
+	"github.com/tetsuo/warp/result"
 )
 
 type par[A any] struct {

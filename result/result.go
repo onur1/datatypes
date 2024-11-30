@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/onur1/warp"
+	"github.com/tetsuo/warp"
 )
 
 // Ok creates a result which never fails and returns a value of type A.

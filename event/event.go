@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/onur1/warp"
-	"github.com/onur1/warp/nilable"
+	"github.com/tetsuo/warp"
+	"github.com/tetsuo/warp/nilable"
 )
 
 // Map creates an event by applying a function on each value received from a source

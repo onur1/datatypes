@@ -3,8 +3,8 @@ package io_test
 import (
 	"testing"
 
-	"github.com/onur1/warp"
-	"github.com/onur1/warp/io"
+	"github.com/tetsuo/warp"
+	"github.com/tetsuo/warp/io"
 	"github.com/stretchr/testify/assert"
 )
 
