@@ -1,7 +1,7 @@
 
 # warp
 
-**warp** is an experimental Go library that introduces monadic abstractions, enabling functional programming patterns such as `Result` and `Event` monads. By leveraging Go's generics, warp facilitates cleaner error handling and the composition of asynchronous operations.
+**warp** is an experimental Go library that leverages generics to introduce monadic abstractions, enabling functional programming patterns for improved error handling and composition of asynchronous operations.
 
 ## Features
 
@@ -19,7 +19,7 @@ go get github.com/tetsuo/warp
 
 ## Usage
 
-### Result Monad
+### `Result`
 
 The `Result` type encapsulates a computation that may return a value or an error, allowing you to chain dependent operations with error handling:
 
@@ -75,7 +75,7 @@ value, err := res(context.Background())
 Error: negative square root
 ```
 
-### Event Monad
+### `Event`
 
 The `Event` monad models time-based events, allowing for declarative composition of asynchronous or periodic operations. Here's an example demonstrating how to use the `Event` monad to process a stream of integers, doubling each value and summing them up:
 
